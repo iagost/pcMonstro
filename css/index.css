@@ -1,0 +1,123 @@
+main{
+    margin-top: 260px;
+    height: 100%;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.backgroundCentro {
+    outline:solid;
+    outline-color: #FF4500;
+    outline-offset:-32px;
+    padding:35px;
+    background: #C0C0C0;
+    background-clip: content-box;
+    z-index: 30;
+}
+
+.texto {
+    position: relative;
+    text-align: center;
+}
+
+#dadosEmpresa{
+    text-align: right;
+    right: 20px;
+}
+
+#slideshow {
+    margin: -20px auto;
+    position: relative;
+    width: 1000px;
+    height: 240px;
+    padding: 10px;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.destaque {
+    width: 1000px;
+    height: 240px;
+    padding: 10px;
+}
+
+#googleMap{
+    position: relative;
+    left: 100px;
+    width:650px;
+    height:400px;
+    top: -200px;
+}
+
+.rodape {
+    
+    background-color: #111;
+    color: #f2fffc;
+    clear: both;
+    height: 84px;
+    padding-top: 25px;
+    padding-left: 36px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.rodape span {
+    
+    position: relative;
+    top: 4px;
+    width: 1px;
+    height: 1px;
+    padding-left: 2px;
+}
+
+#logo4 {
+    
+    position: relative;
+    top: 15px;
+    width: 100px;
+    left: -10px;
+  
+}
+
+
+
+.escudo img {
+    position: relative;
+    left: 1100px;
+    top: -30px;
+    width:  40px;
+    height: 30px;
+    float: left;
+
+    
+}
+
+.cadeado img {
+    position: relative;
+    top: -30px;
+    left: 1099px;
+    float: left;
+    width:  40px;
+    height: 30px;
+  
+}
+
+
